@@ -1,0 +1,6 @@
+[user]
+	name = spike
+	email = joel_llauca97@outlook.com
+[alias]
+	lg = log --oneline --decorate --all --graph
+	s = status -s -b
