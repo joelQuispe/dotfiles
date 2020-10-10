@@ -133,10 +133,7 @@ alias la="ls -la"
 alias cdc="cd $HOME/Code"
 alias gs="git status"
 alias code="/usr/local/bin/code"
-FIRST_CHARACTER_OK="▶"
-FIRST_CHARACTER_KO="▶"
-DIRTY="✗"
-NONE="✓"
+
 
 
 #========================================================================
@@ -190,7 +187,9 @@ bindkey '^r'	_reverse_search
 
 #------------------------------------------------------------------------
 
-
+# Fzf Completion
+#/usr/share/fzf/completion.zsh
+#/usr/share/fzf/shell/key-bindings.zsh
 
 #========================================================================
 #			Comando que Enlaza fzf con zsh
@@ -278,4 +277,6 @@ progress-bar() {
   done
   clean_line
 }
+
 #----------------------------------------------------------------------
+
